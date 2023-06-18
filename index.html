@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minecraft Maps & Discord Bots Store</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #222222;
+      color: #ffffff;
+    }
+  
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+  
+    h1, h2, h3 {
+      margin-bottom: 20px;
+    }
+  
+    p {
+      margin-bottom: 10px;
+    }
+  
+    ul {
+      list-style-type: none;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  
+    /* Header styles */
+    header {
+      background-color: #333333;
+      padding: 20px 0;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul li {
+      margin-right: 20px;
+    }
+  
+   
+  
+    /* Product grid styles */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+  
+    .product {
+      background-color: #111111;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+  
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+  
+    .product h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+  
+    .product p {
+      font-size: 16px;
+      color: #cccccc;
+      margin-bottom: 10px;
+    }
+  
+    /* Contact section styles */
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #333333;
+      background-color: #111111;
+      color: #ffffff;
+    }
+  
+    form button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333333;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+  
+    form button:hover {
+      background-color: #555555;
+    }
+  
+    /* Footer styles */
+    footer {
+      background-color: #333333;
+      padding: 20px 0;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    /* Social icons styles */
+    .social-icons {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .social-icons .icon {
+      display: inline-block;
+      margin-right: 10px;
+      color: #ffffff;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+  
+    .social-icons .icon:hover {
+      color: #3498db;
+    }
+
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="maps.html">Maps</a></li>
+        <li><a href="#bots">Bots</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to Acenic HQ</h1>
+      <p>Explore our collection of high-quality Minecraft maps and Discord bots to enhance your gaming experience.</p>
+      <p class="developer">Developer: Naitik.exe_</p>
+    </div>
+  </section>
+
+ 
+
+  <section id="bots">
+    <div class="container">
+      <h2>Discord Bots</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="ghoul.jpg" alt="Bot 1">
+          <h3>Ghoul</h3>
+          <p>A NSFW discord bot with music and some moderation commands.</p>
+          <p>Prefix: "!"</p>
+          <p>Music Prefix: "."</p>
+          <a href="https://discord.com/api/oauth2/authorize?client_id=1111502828876341268&permissions=8&scope=bot" class="btn">Add to Server</a>
+        </div>
+        <div class="product">
+          <img src="chatbot.jfif" alt="Bot 2">
+          <h3>Chatter Ghoul</h3>
+          <p>A discord chat bot. Use .chat or .setchat to talk with me.</p>
+          <p>Prefix: "."</p>
+          <a href="https://discord.com/api/oauth2/authorize?client_id=1118038120609349713&permissions=8&scope=bot" class="btn">Add to Server</a>
+        </div>
+        <!-- Add more bot products here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="maps">
+    <div class="container">
+      <h2>Minecraft Maps</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="map1.png" alt="Map 1">
+          <h3>Spawn</h3>
+          <p>Type:schematic</p><br><br>
+          <a href="maps.html" class="btn">Download</a>
+        </div>
+        <div class="product">
+          <img src="13114273-glacierindustries_l.webp" alt="Map 2">
+          <h3>Glacier Industries </h3>
+          <p>Type:Map</p><br><br>
+          <a href="maps.html" class="btn">Download</a>
+        </div>
+        
+        
+        <!-- Add more map products here -->
+      </div>
+    </div>
+  </section>
+  <div class = "go-to-maps">
+    <a href="maps.html" class="btn">Go to Maps</a>
+  </div>
+  <br>
+<div class="discord">
+  <h2>Discord</h2>
+</div>
+  <div class="discord-widget">
+    
+    <iframe src="https://discord.com/widget?id=1063451077552377936&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+ 
+  </div>
+
+  <div class="discord-btnn">
+    <h2>Join Our discord server for discord bot source codes and many more things !</h2><br>
+    <a href="https://discord.gg/mMrsfAcMaw" class="btn">Join Disocrd</a>
+    
+  </div>
+
+  <br>
+  <br>
+  <br>
+<div class = "contact-text"><h2>Contact Us</h2></div>
+  <section id="contact">
+    <div class="container">
+     
+      <form
+  action="https://formspree.io/f/mzbqngeb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  
+    <div class="container">
+      <h2><p>Follow us on social media:</p></h2>
+      <div class="social-icons">
+        <a href="https://discord.gg/mMrsfAcMaw" class="icon"><i class="fab fa-discord "></i></a>
+        <a href="https://www.instagram.com/naitik.exe_/" class="icon"><i class="fab fa-instagram "></i></a> 
+        <a href="https://www.youtube.com/channel/UCt5FBx5YaZ7QZmd4sDEJYmw" class="icon"><i class="fab fa-youtube "></i></a>
+      </div>
+    </div>
+  
+</body>
+</html>
